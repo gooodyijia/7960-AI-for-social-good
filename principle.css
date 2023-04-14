@@ -4,7 +4,7 @@ body {
 }
 
 .upper {
-    background-image: url(/image/principle-upper-back.jpg);
+    background-image: url(image/principle-upper-back.jpg);
     background-repeat:no-repeat;
 
     background-size:100%;
