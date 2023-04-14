@@ -4,7 +4,7 @@ body {
 }
 
 .upper {
-    background-image: url(/image/education12.jpeg);
+    background-image: url(image/education12.jpeg);
     background-repeat:no-repeat;
     background-size:100%;
     padding:10px;
