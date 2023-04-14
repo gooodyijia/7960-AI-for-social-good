@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+.upper {
+    background-image: url(/image/principle-upper-back.jpg);
+    background-repeat:no-repeat;
+
+    background-size:100%;
+    padding:10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:rgb(93, 93, 150);
+}
+
+.upper-text {
+    padding:40px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sub-title {
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkgray;
+    text-align: center;
+    margin-left:280px;
+    margin-right:280px;
+    margin-bottom: 8px;
+}
+
+
+.link {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+
+    display: block;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    background-color: aliceblue;
+    color:black;
+}
+
+.content {
+    color:floralwhite;
+    background-color:rgb(93, 93, 150);
+    border-radius: 15px;
+    padding:40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+
+.text {
+    text-align: justify;
+}

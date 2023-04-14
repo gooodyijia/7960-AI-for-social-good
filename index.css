@@ -1,0 +1,136 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+.upper {
+    background-image: url(/image/home-upper-back.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    padding:10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkviolet;
+}
+
+.upper-text {
+    padding:40px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.part1,.part2,.part3 {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.part1-header,.part2-header,.part3-header {
+    padding-left:50px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:60px; 
+    font-style: italic;
+    position:absolute;
+    top:100px;
+}
+
+.illustration2 {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.illustration3 {
+    padding-left: 20px;
+}
+
+.part1-content,.part2-content {
+    color:gainsboro;
+    font-family:Arial, Helvetica, sans-serif; 
+    padding:40px;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.what-social-good,.ai-for-good {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.part2-content2 {
+    color:gainsboro;
+    font-family:Arial, Helvetica, sans-serif; 
+    padding-right:40px;
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+
+.link {
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.link:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+h1 {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.company-column {
+    display: grid;
+    grid-template-columns: 3.3fr 3.3fr 3.3fr;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.company {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: blueviolet;
+    padding:10px;
+}
+
+.company:hover {
+    background-color: darkgray;
+}
+
+.c-name {
+    text-decoration:none;
+    color:white;
+}

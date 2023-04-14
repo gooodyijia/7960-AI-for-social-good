@@ -1,0 +1,162 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+.upper {
+    background-image: url(/image/education12.jpeg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    padding:10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(187, 121, 67);
+}
+
+.upper-text {
+    padding:40px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.upper-text2 {
+    width:50%;
+    font-size: 16px;
+    background-color: rgb(28, 25, 25);
+    padding: 10px;
+}
+
+.upper-text2,.description {
+    text-align: justify;
+}
+
+.link {
+    text-decoration: none;
+    color:white;
+}
+.link:hover {
+    cursor: pointer;
+    background-color: rgb(187, 121, 67);
+}
+
+.block1 {
+    position: relative;
+    padding-right:30px;
+}
+
+.block-header {
+    padding-left:50px;
+    color:rgb(187, 121, 67);
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:60px;
+    font-weight: bold; 
+    font-style: italic;
+    position:absolute;
+    top:80px;
+    z-index:1;
+}
+
+.block2 {
+    position: relative;
+    padding-right:30px;
+    top: 1640px;
+}
+
+.block3 {
+    position: relative;
+    padding-right:30px;
+    top:3400px;
+}
+
+.content-container {
+    background-color:azure;
+    width:75%;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    position:absolute;
+    top:110px;
+    left: 17%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    padding:20px;
+    background-color: rgb(187, 121, 67);
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.content-research {
+    padding:20px;
+    background-color: rgb(187, 121, 67);
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.content-news {
+    display: grid;
+    grid-template-columns: 4.5fr 5.5fr;
+    padding:20px;
+    background-color: rgb(187, 121, 67);
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.title:hover {
+    color:blanchedalmond;
+    cursor: pointer;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.text {
+    padding-top: 20px;
+}
+.image {
+    padding:20px;
+}
+
+.content:hover,.content-research:hover,.content-news:hover{
+    box-shadow: 0px 5px 5px #888888;
+}
+
