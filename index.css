@@ -4,7 +4,7 @@ body {
 }
 
 .upper {
-    background-image: url(/image/home-upper-back.jpg);
+    background-image: url(image/home-upper-back.jpg);
     background-repeat:no-repeat;
     background-size:100%;
     padding:10px;
