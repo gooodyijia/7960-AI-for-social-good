@@ -4,7 +4,7 @@ body {
 }
 
 .upper {
-    background-image: url(/image/health-upper-back.png);
+    background-image: url(image/health-upper-back.png);
     background-repeat:no-repeat;
     background-size:100%;
     padding:10px;
